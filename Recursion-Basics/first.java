@@ -86,7 +86,7 @@ public class first {
     // sometimes you need some additional variables in the argument 
     // in that case, make another function.
         int digits = (int)(Math.log10(n))+1; // to get total no. of digits
-        return helper(n,digits)
+        return helper(n,digits);
     }
     private static int helper(int n, int digits){
         if(n%10==n) return n;
